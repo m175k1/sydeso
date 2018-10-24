@@ -1,0 +1,25 @@
+@keyframes arrow-down {
+    0% {
+      transform: translate(0); 
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-1.5rem); 
+    }
+    100% {
+      transform: translate(0); 
+    } 
+}
+
+@keyframes arrow-up {
+    0% {
+      transform: translateX(-50%); 
+    }
+    50% {
+      opacity: 0;
+      transform: translate(-1.5rem, -50%); 
+    }
+    100% {
+      transform: translateX(-50%); 
+    } 
+}

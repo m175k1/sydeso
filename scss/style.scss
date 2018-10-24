@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'keyframes';
 
 * {
     margin: 0;
@@ -209,6 +210,22 @@ body {
             color: $color-red;
         }
     }
+}
+
+//Arrow down
+.arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    transform: translateX(-50%);
+    animation-name: arrow-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+
+.arrow-down i {
+    color: #fff;
+    cursor: pointer;
 }
 
 //Heading Button
@@ -644,6 +661,7 @@ body {
 .footer {
     padding: 5rem;
     background-color: $color-black;
+    position: relative;
 
     &-list {
         list-style-type: none;
@@ -702,5 +720,17 @@ body {
             font-size: 1.4rem;
         }
     }
+}
+
+.arrow-up {
+    position: absolute;
+    left: 50%;
+    top: -2rem;
+    transform: translateX(-50%);
+    color: #dd0a35;
+    animation-name: arrow-up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer; 
 }
 
