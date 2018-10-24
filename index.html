@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <title>Sydeso</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+    <!-- NAV -->
+        <nav class="nav">
+            <!-- LOGO BOX -->
+            <div class="nav-box">
+                <picture>
+                    <source srcset="images/sydeso-final-v3.png" media="(max-width: 25em)">
+                    <img class="nav-logo" src="images/sydeso-final-v2.png" alt="Sydeso">
+                </picture>
+            </div>
+            <!-- NAV LIST -->
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about-us" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact-us" class="nav-link">Contact us</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link nav-link-red">09083903380</a></li>
+            </ul>
+        </nav>
+    <!-- HAMBURGER -->
+        <div class="hamburger">
+            <i class="fas fa-bars fa-3x hamburger-icon"></i>
+        </div>
+    
+        <div class="sidenav">
+            <span class="sidenav-close">&times;</span>
+            <ul class="sidenav-list">
+                <li class="sidenav-item"><a href="#header" class="sidenav-link" onclick="closeMenu()">Home</a></li>
+                <li class="sidenav-item"><a href="#about-us" class="sidenav-link" onclick="closeMenu()">About us</a></li>
+                <li class="sidenav-item"><a href="#services" class="sidenav-link" onclick="closeMenu()">Services</a></li>
+                <li class="sidenav-item"><a href="#portfolio" class="sidenav-link" onclick="closeMenu()">Portfolio</a></li>
+                <li class="sidenav-item"><a href="#contact-us" class="sidenav-link" onclick="closeMenu()">Contact us</a></li>
+                <li class="sidenav-item"><a href="#footer" class="sidenav-link" onclick="closeMenu()">09083903380</a></li>
+            </ul>
+        </div>
+    <!-- HEADING -->
+        <div class="heading-box">
+            <h1 class="heading">
+                <div class="heading-primary">Looking for a website?</div>
+                <div class="heading-secondary">We got <span>you!</span></div>
+            </h1>
+            <a href="#" class="heading-btn">Explore</a>
+        </div>
+    </header>
+
+    <!-- SECTION --------------------------------------------------------------- ABOUT US-->
+    <section id="about-us">
+        <!-- GLOBAL HEADING -->
+        <div class="section-heading">
+            <h2>About Us</h2>
+        </div>
+        <div class="about-us-description">
+            <p>
+            <span>Sydeso</span>
+            is a startup company and for us it was a gift from God, I've been praying for this when I was still in abroad to have a business that is related to my interest. It all started when i post on a group in facebook page and I ask if I can join to some group so i'll be able to learn and enhance my skills in programming. There's no group there so i decided to make one and that's where I met my team, Emil and Marvin. I know that its God's way to build our company which is Sydeso.
+            Sydeso is aiming to be one of the best IT services in the Philippines and we also have a mission to build a projects where we can help others. I know the Sydeso did not just happen for nothing but it happened because it has a purpose according to God's plan.
+            </p>
+        </div>
+        <!-- GLOBAL HEADING -->
+        <div class="section-heading">
+            <h2>Meet our team</h2>
+        </div>
+        <!-- MEET OUR TEAM -->
+        <div class="team">
+            <div class="team-box"> <!-- ITEM 1 -->
+                <img src="images/Marvin.jpg" class="team-images" alt="Marvin Dale Pastrana">
+                <h3 class="team-title">Marvin Dale Pastrana
+                    <div class="team-subtitle">UI/UX Designer</div>
+                </h3>
+                <p class="team-description">Being head programmer of Sydeso, </p>
+            </div>
+            <div class="team-box"> <!-- ITEM 2 -->
+                <img src="images/Mark.jpg" class="team-images" alt="Mark Jeff Blando">
+                <h3 class="team-title">Mark Jeff Blando
+                    <div class="team-subtitle">CEO/Front End Developer</div>
+                </h3>
+                <p class="team-description">
+				 Ceo/Founder of Sydeso, Im a Front end developer,  Marketing.<br/>
+				I am passionate about everything related to web development
+				My best assets are my creativity, my feeling with technology and my passion.
+				</p>
+            </div>
+            <div class="team-box"> <!-- ITEM 3 -->
+                <img src="images/Emil.jpg" class="team-images" alt="Emil Mendoza">
+                <h3 class="team-title">Emil Mendoza
+                    <div class="team-subtitle">CEO/Co-Founder Fullstack Developer</div>
+                </h3>
+                <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia diam risus, eu imperdiet orci egestas id. Praesent non nisl sit amet elit commodo semper ut eu pur</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION -----------------------------------------------------------------SERVICES -->
+    <section id="services" class="services">
+        <!-- GLOBAL HEADING -->
+        <div class="section-heading">
+            <h2>Services</h2>
+        </div>
+        
+        <div class="service">
+            <div class="service-box"> <!-- SERVICES ITEM 1 -->
+                <img src="./images/coding.png" class="service-images" alt="Web app development">
+                <h3 class="service-title">Web app development</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+            <div class="service-box"> <!-- SERVICES ITEM 2 -->
+                <img src="./images/app-development.png" class="service-images" alt="Mobile app development">
+                <h3 class="service-title">Mobile app development</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+            <div class="service-box"> <!-- SERVICES ITEM 3 -->
+                <img src="./images/web-design.png" class="service-images" alt="Web design">
+                <h3 class="service-title">Web design</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+            <div class="service-box"> <!-- SERVICES ITEM 4 -->
+                <img src="./images/programming.png" class="service-images" alt="Web applications">
+                <h3 class="service-title">Web applications</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+            <div class="service-box"> <!-- SERVICES ITEM 5 -->
+                <img src="./images/server.png" class="service-images" alt="Hosting and domain">
+                <h3 class="service-title">Hosting and domain</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+            <div class="service-box"> <!-- SERVICES ITEM 6 -->
+                <img src="./images/maintenance.png" class="service-images" alt="Maintenance">
+                <h3 class="service-title">Maintenance</h3>
+                <!-- <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel feugiat sapien. Praesent sed consequat dui.</p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ----------------------------------------------------------------- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-heading">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="portfolio-wrapper">
+            <div class="portfolio-box">
+                <a href="http://www.ariete.com.au/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-1-Optimized.jpg" class="portfolio-photo" alt="Ariete"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://touchinsol.com.au/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-2-Optimized.jpg" class="portfolio-photo" alt="Touch In Sol"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://www.isuzuautopartsstore.com/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-3-Optimized.jpg" class="portfolio-photo" alt="Isuzu auto part store"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://www.waterfrontplayhouse.org/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-4-Optimized.jpg" class="portfolio-photo" alt="Waterfront playhouse"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://www.keysrealestate.com/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-5-Optimized.jpg" class="portfolio-photo" alt="Key real estate"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://www.alternativeintel.com/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-6-Optimized.jpg" class="portfolio-photo" alt="Alternative Intel"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://www.sunshinecoast.design/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-7-Optimized.jpg" class="portfolio-photo" alt="Sunshine Coast"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="http://backtogames.com/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-8-Optimized.jpg" class="portfolio-photo" alt="Back to games"></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://www.bustedindetroit.com/" target="_blank" rel="nofollow" class="portfolio-link"><img src="./images/Project-9-Optimized.jpg" class="portfolio-photo" alt="Busted in detroit"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ----------------------------------------------------------------- CONTACT US -->
+    <section id="contact-us" class="contact-us">
+        <div class="marketing">
+            <h2>We'd love to talk with you</h2>
+            <p>Client's satisfaction is our top priority!</p>
+        </div>
+        <div class="section-heading">
+            <h2>Get in touch with us</h2>
+        </div>
+    <!-- CONTACT BOX -->
+    <div class="contact">
+        <!-- CONTACT FORM -->
+        <form action="" class="contact-form">
+            <div class="contact-fluid">
+                <div class="contact-box">
+                    <i class="far fa-user fa-2x contact-icons"></i>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+                <div class="contact-box">
+                    <i class="far fa-envelope fa-2x contact-icons"></i>
+                    <input type="email" placeholder="Enter your email address">
+                </div>
+            </div>
+            <textarea class="contact-msg" placeholder="Enter your message"></textarea>
+            <button class="contact-btn"> Send </button>
+        </form>
+        <!-- CONTACT DETAILS -->
+        <div class="contact-details">
+            <div class="contact-item">
+                <span><i class="fas fa-phone fa-3x contact-icons2"></i></span>
+                <div class="contact-fulldetails">
+                    <p class="contact-title">Contact number</p>
+                    <p class="contact-description">09083903380</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span><i class="far fa-envelope fa-3x contact-icons2"></i></span>
+                <div class="contact-fulldetails">
+                    <p class="contact-title">Email address</p>
+                    <p class="contact-description">marketing@sydeso.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span><i class="fab fa-facebook-f fa-3x contact-icons2"></i></span>
+                <div class="contact-fulldetails">
+                    <p class="contact-title">Facebook</p>
+                    <p class="contact-description">facebook.com/SydesoPH</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span><i class="fas fa-globe fa-3x contact-icons2"></i></span>
+                <div class="contact-fulldetails">
+                    <p class="contact-title">Website</p>
+                    <p class="contact-description">www.sydeso.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+    
+    <div class="footer-wrapper">
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#header" class="footer-link">Home</a></li>
+            <li class="footer-item"><a href="#about-us" class="footer-link">About Us</a></li>
+            <li class="footer-item"><a href="#services" class="footer-link">Services</a></li>
+            <li class="footer-item"><a href="#portfolio" class="footer-link">Portfolio</a></li>
+            <li class="footer-item"><a href="#contact-us" class="footer-link">Contact us</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-item"><a href="#contact-us" class="footer-link">09083903380</a></li>
+            <li class="footer-item"><a href="#contact-us" class="footer-link">marketing@sydeso.com</a></li>
+            <li class="footer-item"><a href="https://www.facebook.com/SydesoPH/" target="_blank" class="footer-link">facebook.com/SydesoPH</a></li>
+            <li class="footer-item"><a href="https://www.sydeso.com/" target="_blank" class="footer-link">www.sydeso.com</a></li>
+        </ul>
+    </div>
+        <p class="footer-copyright">&copy; 2018 System Development Solution. All rights reserved</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+        
+            // Store hash
+            var hash = this.hash;
+        
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+    </script>
+</body>
+</html>
